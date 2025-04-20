@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirección aleatoria</title>
+  <script>
+    // Lista de URLs a las que quieres redirigir
+    const urls = [
+      "https://github.com/VSCodium/vscodium/releases",
+      "https://www.youtube.com/",
+      "https://pr1mate.xyz/"
+    ];
+
+    // Redirecciona al azar
+    window.location.href = urls[Math.floor(Math.random() * urls.length)];
+  </script>
+</head>
+<body>
+  <p>Redireccionando...</p>
+</body>
+</html>
